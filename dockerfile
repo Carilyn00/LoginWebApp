@@ -1,3 +1,3 @@
 FROM tomcat
 
-ADD target/LoginWebApp.war /usr/local/tomcat/webapps/LoginWebApp.war
+COPY target/LoginWebApp.war /usr/local/tomcat/webapps/LoginWebApp.war
